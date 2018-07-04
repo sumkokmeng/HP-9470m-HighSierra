@@ -1,0 +1,42 @@
+
+Clover EFI installer log - Sat Jun  9 16:51:41 +08 2018
+Installer version: v2.4k r4522 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *800.2 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:          Apple_CoreStorage HighSierraSSD           412.0 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+   4:          Apple_CoreStorage highsierra              327.5 GB   disk0s4
+   5:                 Apple_Boot Recovery HD             650.0 MB   disk0s5
+   6:                  Apple_HFS osbackup                59.1 GB    disk0s6
+
+/dev/disk1 (internal, virtual):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                  Apple_HFS HighSierraSSD          +411.6 GB   disk1
+                                 Logical Volume on disk0s2
+                                 C3307849-58C7-412F-8D8F-DF7087A3923A
+                                 Unencrypted
+
+/dev/disk2 (internal, virtual):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                  Apple_HFS highsierra             +327.1 GB   disk2
+                                 Logical Volume on disk0s4
+                                 251DE9FE-B3AA-4608-B1F9-1FFCD3D07021
+                                 Unencrypted
+
+disk1 is a logical volume
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/HighSierraSSD/EFIROOTDIR/EFI folder to /Volumes/HighSierraSSD/EFI-Backups/r4359/2018-06-09-16h51/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
